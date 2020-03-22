@@ -16,7 +16,7 @@ namespace TestAPI
             var api = new VkNet.VkApi();
             api.Authorize(new ApiAuthParams
             {
-                AccessToken = "2583689c8e583ccb25b4b825b5795f904cedae4e8b96e585e0be83c1abf27a51551ad528674842e18d339"
+                AccessToken = ""
             });
 
             VkNet.Utils.VkCollection<User> friends = api.Friends.Get(new VkNet.Model.RequestParams.FriendsGetParams
